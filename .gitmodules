@@ -1,9 +1,9 @@
 [submodule "app-ethereum"]
 path = app-ethereum
 url = https://github.com/LedgerHQ/app-ethereum
-[submodule "thorswap-router-v2-plugin"]
-path = thorswap-router-v2-plugin
-url = https://github.com/pastaghost/thorswap-router-v2-plugin.git
 [submodule "plugin-tools"]
-	path = plugin-tools
-	url = https://github.com/pastaghost/plugin-tools.git
+path = plugin-tools
+url = https://github.com/pastaghost/plugin-tools.git
+[submodule "thorswap-router-v2-plugin"]
+	path = thorswap-router-v2-plugin
+	url = https://github.com/pastaghost/thorswap-router-v2-plugin.git
