@@ -4,6 +4,3 @@ url = https://github.com/LedgerHQ/app-ethereum
 [submodule "plugin-tools"]
 path = plugin-tools
 url = https://github.com/pastaghost/plugin-tools.git
-[submodule "thorswap-plugin"]
-	path = thorswap-plugin
-	url = https://github.com/pastaghost/thorswap-plugin
