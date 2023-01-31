@@ -39,9 +39,9 @@ Then, run the test suite:
 The test suite will generate screenshots showing whatever information would have been displayed on the physical device.
 These screenshots can be found in the `snapshots-tmp/ethereum_nanos_deposit_with_expiry` subdirectory.
 
-### Building the plugin and installing on a physical device
+## Building the plugin and installing on a physical device
 
-#### Build the plugin binary using ledger-app-builder
+### Build the plugin binary using ledger-app-builder
 
 First, build the ledger-app-builder Docker container.
 From the project root directory, run:
@@ -66,7 +66,7 @@ If the plugin binary has built correctly, you should see:
 bash-5.1#
 ```
 
-#### Load the plugin onto the device using ledgerblue:
+### Load the plugin onto the device using ledgerblue:
 
 Exit the ledger-app-builder Docker container with:
 `exit`
@@ -88,7 +88,7 @@ Enter your PIN to unlock the device.
 
 The application should appear on the device screen.
 
-#### Remove the plugin from the device using ledgerblue:
+### Remove the plugin from the device using ledgerblue:
 
 Change to the project root directory:
 `cd ..`
