@@ -1,5 +1,13 @@
 # Development Environment for THORSwap Ledger Plugin
 
+### Setup
+
+Fetch submodule updates:
+
+```
+git submodule update --init --recursive
+```
+
 ### Running tests in the Zondax emulator
 
 From the project root directory, `cd` into the plugin-tools subdirectory and run:
