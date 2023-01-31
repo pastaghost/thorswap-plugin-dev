@@ -68,6 +68,7 @@ yarn test
 
 The test suite will generate screenshots showing whatever information would have been displayed on the physical device.
 These screenshots can be found in the `snapshots-tmp/ethereum_nanos_deposit_with_expiry` subdirectory.
+</br></br></br>
 
 ## Building the plugin and installing on a physical device
 
@@ -111,6 +112,7 @@ If the plugin binary has built correctly, you should see:
 bash-5.1#
 ```
 
+</br>
 ### Load the plugin onto the device using ledgerblue:
 
 Exit the ledger-app-builder Docker container with:
@@ -140,6 +142,7 @@ On your Ledger device, the screen should display `Install app THORSwap`. Select 
 Enter your PIN to unlock the device.
 
 The application should appear on the device screen.
+</br>
 
 ### Remove the plugin from the device using ledgerblue:
 
