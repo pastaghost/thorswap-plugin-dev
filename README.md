@@ -8,6 +8,13 @@ Fetch submodule updates:
 git submodule update --init --recursive
 ```
 
+Select the thorswap-plugin master branch:
+
+```
+cd thorswap-plugin
+git checkout master
+```
+
 ### Running tests in the Zondax emulator
 
 From the project root directory, `cd` into the plugin-tools subdirectory and run:
